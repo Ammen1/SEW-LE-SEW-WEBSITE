@@ -1,0 +1,103 @@
+@keyframes moveInRight{
+    0%{
+        transform: translateX(-100px);
+
+    }
+    50%{
+        transform: translate(0);
+
+    }
+    100%{
+     transform: translateX(100px);
+    }
+
+}
+@keyframes moveInRightBlur{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+
+    }
+    50%{
+        transform: translate(0);
+        opacity: 1;
+
+    }
+    100%{
+     transform: translateX(100px);
+     opacity: 0;
+    }
+
+}
+@keyframes moveInLeft{
+    0%{
+        transform: translateX(100px);
+
+    }
+    50%{
+        transform: translate(0);
+
+    }
+    100%{
+     transform: translateX(-100px);
+    }
+
+}
+@keyframes moveInLeftBlur{
+    0%{
+        transform: translateX(0100px);
+        opacity:0;
+
+    }
+    50%{
+        transform: translate(0);
+        opacity: 1;
+
+    }
+    100%{
+     transform: translateX(-100px);
+     opacity: 0;
+    }
+
+}
+@keyframes moveInUp{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+
+    }
+    50%{
+        transform: translate(0);
+        opacity: 1;
+
+    }
+    100%{
+     transform: translateY(-100px);
+     opacity: 0;
+    }
+
+}
+@keyframes moveInDown{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+
+    }
+    50%{
+        transform: translate(0);
+        opacity: 1;
+
+    }
+    100%{
+     transform: translateY(100px);
+     opacity: 0;
+    }
+
+}
+
+/*
+
+1.call the corresponding animation when deeded or just call it send me I will try to fit them 
+2.make animation-timing-function:linear;
+animation-duration:2s;
+*/

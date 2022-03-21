@@ -1,0 +1,60 @@
+
+#about{
+    padding-top: 6rem;
+  }
+  
+  .about_us_cards {
+    width: 98%;
+   
+    padding: 0px;
+    margin: 5px auto;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .about_us_cards .about_us_card {
+    padding: 10px;
+    margin: 20px auto;
+    flex-basis: 400px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow:column wrap;
+  
+    /* box-shadow: .5px .5px 5px rgb(160, 160, 172); */
+    border-radius: 5px;
+  }
+  
+  .about_us_card h4 {
+    width: fit-content;
+    display: block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    word-spacing: .125em;
+    letter-spacing: .124em;
+    color: rgb(1, 7, 3);
+    margin: 0px auto;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .about_us_card h4 hr {
+    height: 3px;
+    width:50px;
+    margin:5px auto;
+    background-color: rgba(95, 226, 128, 0.788);
+    border:solid rgba(95, 226, 128, 0.788);
+    border-radius: 3px;
+  }
+  
+  .about_us_card p {
+    padding: 40px;
+    font-size: 2rem;
+    color: #343a40;
+    word-spacing: .125em;
+    letter-spacing: .0325em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+  }
